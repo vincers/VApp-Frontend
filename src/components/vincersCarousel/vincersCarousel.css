@@ -1,0 +1,17 @@
+.carouselItem {
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+	height: 88px;
+	border-radius: 14px !important;
+	margin-right: 5px;
+	transition: transform 500ms !important;
+	transform-origin: left center;
+}
+
+.swiper .carouselItem:focus,
+.swiper .carouselItem:hover {
+	transform: scale(1.1);
+	position: absolute;
+	z-index: 1;
+}
